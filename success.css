@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --primary-red: hsl(4, 100%, 67%);
+    --blue-800: hsl(234, 29%, 20%);
+    --blue-700: hsl(235, 18%, 26%);
+    --grey: hsl(0, 0%,58%);
+    --white: hsl(0, 0%, 100%);
+
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+main {
+    display: block;
+    width: 88%;
+    height: auto;  
+    margin-top: 8rem;
+}
+
+
+.checkmark {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1.75rem;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    color: var(--blue-700);
+}
+
+p {
+    line-height: 1.25em;
+    margin-bottom: 17rem;
+    color: var(--blue-700);
+}
+
+button {
+    width: 19.4375rem;
+    height: 2.5.425rem;
+    border-radius: 7px;
+    padding: 1rem 3rem;
+    background-color: var(--blue-800);
+    color: var(--white);
+    border-style: solid;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+
+    body {
+    background-color: var(--blue-800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    main {
+        background-color: var(--white);
+        width: 31.5rem;
+        height: 32.5rem;
+        border-radius: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 45px;  
+    }
+
+    .wrapper {
+        display: flex;
+        width: 23.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        flex-shrink: 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        margin-bottom: 1.5rem;
+    }
+}

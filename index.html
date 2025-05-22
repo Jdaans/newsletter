@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+
+   <main>
+    <img src="/illustration-sign-up-mobile.svg" alt="" class="header-image">
+    <div class="wrapper">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <ul class="check-list">
+        <div class="list-item-1">
+          <img src="/icon-list.svg" alt="checkmark" class="checkmark">
+          <li>
+            Product discovery and building what matters
+          </li>
+        </div>
+        <div class="list-item-2">
+          <img src="/icon-list.svg" alt="checkmark" class="checkmark">
+          <li>
+            Measuring to ensure updates are for success
+          </li>
+        </div>
+        <div class="list-item-3">
+          <img src="/icon-list.svg" alt="checkmark" class="checkmark">
+          <li>
+            And much more!
+          </li>
+        </div>
+      </ul>
+
+      <form action="/success.html" id="email-field">
+        <label for="email" id="email-label"><strong>Email Address</strong></label>
+        <input type="email" name="email" id="email-input" placeholder="email@company.com" required>
+        <span id="email-error"></span>
+        <button type="submit"><strong>Subscribe to monthly newsletter</strong></button>
+      </form>
+    </div>
+   </main>
+
+
+
+</body>
+</html>
